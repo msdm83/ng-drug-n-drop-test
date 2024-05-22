@@ -1,0 +1,28 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  background-color: mistyrose;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+  img {
+    width: 100%;
+  }
+}
+
+.drugguble {
+  height: 6rem;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+
+  img {
+    height: 100%;
+    width: auto;
+  }
+}
